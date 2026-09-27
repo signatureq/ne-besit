@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Manrope";
+        src: url("Manrope-ExtraBold.ttf");
+        font-weight: 800;
+      }
+      @font-face {
+        font-family: "Manrope";
+        src: url("Manrope-Regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "IBM Plex Mono";
+        src: url("IBMPlexMono-SemiBold.ttf");
+        font-weight: 600;
+      }
+      .brand { font: 800 132px "Manrope", sans-serif; letter-spacing: -6px; fill: #202321; }
+      .label { font: 600 28px "IBM Plex Mono", monospace; letter-spacing: 6px; fill: #4454dc; }
+      .copy { font: 400 42px "Manrope", sans-serif; fill: #202321; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f4f0e7"/>
+  <circle cx="1110" cy="86" r="238" fill="none" stroke="#4454dc" stroke-width="64" opacity="0.12"/>
+  <circle cx="1110" cy="86" r="156" fill="none" stroke="#4454dc" stroke-width="28" opacity="0.1"/>
+
+  <text class="label" x="86" y="122">HR-БЮРО</text>
+  <text class="brand" x="82" y="306">не бесит</text>
+  <rect x="621" y="176" width="32" height="32" rx="7" fill="#d05b3b"/>
+
+  <line x1="86" y1="365" x2="1114" y2="365" stroke="#cec9be" stroke-width="2"/>
+  <text class="copy" x="86" y="452">Подбор сотрудников и HR-процессы</text>
+  <text class="copy" x="86" y="514">для малого бизнеса</text>
+
+  <rect x="86" y="562" width="236" height="10" rx="5" fill="#4454dc"/>
+  <rect x="334" y="562" width="74" height="10" rx="5" fill="#d05b3b"/>
+</svg>
